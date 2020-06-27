@@ -1,0 +1,91 @@
+$color_text: #6ad078;
+$color_h: #333;
+$color-backround:#1F365C;
+$f-w: 700;
+$f-family: 'Roboto',
+sans-serif;
+$f-size_time: 12px;
+$f-size_description: 14px;
+$picture: 500px;
+@mixin re-content($number) {
+    -webkit-line-clamp: $number;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+}
+.type-1746{
+    .vc_custom_1498720684410 {
+    margin-top: 0px !important;
+    padding-bottom: 20px !important;
+  }
+    .left-icon .aio-icon-left {
+        display: table-cell;
+        vertical-align: top;
+        margin: 10px;
+        padding: 10px;
+    }
+    .aio-icon-box.left-icon {
+    display: inline-block;
+    }
+    .accent-icon-bg .aio-icon {
+        background: #ffb536!important;
+    }
+
+  .aio-icon{
+    margin-top: 15px;
+    color:#111;
+    border-radius: 200px;
+    border-color:#333333;
+    border-width:1px;
+    width:45px;
+    height:45px;
+    line-height:34px;
+    border-radius:500px;
+    font-size:30px;
+    display: inline-block;
+    i {
+        line-height: inherit;
+      }
+    }
+
+
+
+  .fas{
+    text-align: center;
+    color: #ffffff;
+    border-style: none;
+    border-color: #333333;
+    border-width: 1px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 500px;
+    font-size: 16px;
+    display: inline-block;
+
+    padding-bottom: 30px;
+
+  }
+  .aio-icon-title{
+    color:hsl(217, 50%, 24%);
+    font-size:30px;
+    font-weight:700;
+    gap:normal;
+    line-height:26px;
+    text-transform:uppercase;
+  }
+  .left-icon .aio-ibd-block {
+    padding-top: 15px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .left-icon .aio-icon-description, .left-icon .aio-icon-header {
+    padding-top: 10px;
+    float: left;
+    width: 100%;
+    padding-left: 20px;
+  }
+
+}
